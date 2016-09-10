@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gefragt - gejagt</title>
+	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<!--<script type="text/javascript" src="jquery-3.1.0.js"></script>-->
+	<link rel="stylesheet" href="screen.css">
+</head>
+
+<body>
+	<div id="spieler" class="player" onclick="showAnswerSpieler()">Spieler</div>
+	<div id="jaeger" class="player" onclick="showAnswerJaeger()">J&auml;ger</div>
+	<div id="platzhalter"></div>
+	<div id="frage" onclick="getFrage()">
+		Start
+	</div>
+	<table id="options">
+		<tr>
+			<td>
+				<div id="a" class="option" onclick="clickA()">
+					
+				</div>
+			</td>
+			<td>
+				<div id="b" class="option" onclick="clickB()">
+					
+				</div>
+			</td>
+			<td>
+				<div id="c" class="option" onclick="clickC()">
+					
+				</div>
+			</td>
+		</tr>
+	</table>
+	<script type="text/javascript" src="screen.js"></script>
+</body>
+</html>

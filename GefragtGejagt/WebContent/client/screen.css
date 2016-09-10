@@ -1,0 +1,75 @@
+body {
+	font-family: Verdana;
+}
+
+#timer {
+	text-align: center;
+	font-size: 3em;
+	margin-top: 40px;
+}
+
+.player {
+	font-size: 2em;
+	background-color: lightgrey;
+	padding: 15px;
+	width: 200px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#spieler {
+	float: left;
+	margin-left: 40px;
+	color: blue;
+}
+
+#jaeger {
+	float: right;
+	margin-right: 40px;
+	color: red;
+}
+
+#platzhalter {
+	height: 150px;
+}
+
+#frage {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size:4em;
+	text-align: center;
+}
+
+#options {
+	text-align: center;
+	width: 98%;
+}
+
+#options td {
+	width: 33%;
+}
+
+.option	{
+	font-size: 2em;
+	margin-top: 20px;
+	color: black;
+	background-color: lightgrey;
+	cursor: hand;
+}
+
+.selectedByPlayer {
+	border: 5px solid blue;
+}
+
+.selectedByHunter {
+	border: 5px solid red;
+}
+
+.rightAnswer {
+	background-color: #77FF77;
+}
+
+.ready {
+	background-color: #77FF77;
+	border: 5px solid black;
+}

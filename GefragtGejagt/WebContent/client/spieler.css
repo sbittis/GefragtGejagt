@@ -1,0 +1,26 @@
+body {
+	font-family: Verdana;
+}
+
+.option	{
+	font-size: 3em;
+	margin-top: 20px;
+	color: red;
+	background-color: lightgrey;
+	cursor: hand;
+}
+.option:hover {
+	background-color: red;
+	color: lightgrey;
+}
+
+#frage {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 4em;
+	text-align: center;
+}
+
+.chosen {
+	background-color: blue;
+}
